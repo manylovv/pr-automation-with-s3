@@ -19,7 +19,7 @@ COPY . .
 RUN go build -o /s3 .
 
 ## copy only build file
-FROM node:14-alpine
+FROM node:16-alpine
 
 LABEL maintainer="razzkumar <razzkumar.dev@gmail.com>"
 LABEL version="1.0.1"
